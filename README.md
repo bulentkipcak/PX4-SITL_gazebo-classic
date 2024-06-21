@@ -47,6 +47,8 @@ Navigate into the build directory and invoke CMake from it:
 ```bash
 cd ~/src/sitl_gazebo
 cd build
+!!!alttaki hata verirse yap
+sudo apt-get install libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly -y
 cmake ..
 ```
 
